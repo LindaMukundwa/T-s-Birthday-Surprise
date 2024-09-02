@@ -6,8 +6,30 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #0f7583;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,78,166,1) 47%, rgba(0,212,255,1) 100%);
   }
+
+#music {
+    max-width: 200px;
+    max-height: 30px;
+    color:#04b183;
+    position: center;
+    padding: 30%;
+}
+
+#button {
+    background-color: purple;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: monospace;
+    color: white;
+    padding: 20px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
   
   .birthdayCard {
     position: relative;
